@@ -17,6 +17,23 @@
     <nav class="nav">
         <h3 class="nav-title">BlogSpace</h3>
     </nav>
+    <!-- 
+        Challenge:
+        
+        Create a form with 2 inputs (each with an associated label), 
+        one for the post title (a text input) and one for the post body
+        (a textarea element). Then add a button to the form. 
+        
+        Don't worry about styling quite yet.
+         -->
+    <form id="form" class="form">
+            <label for="new-post-title">Post title:</label>
+            <input class="new-post-title" id="new-post-title" type="text">
+            <label for="new-post-body">New post:</label>
+            <textarea class="new-post-body" name="new-post" id="new-post-body" cols="30" rows="4"></textarea>
+            <button id="btn-form" class="btn-form" type="submit">Post!</button>
+    </form>
+
     <div id="blog-list" class="blog-list">
         <!-- blog posts come here -->
     </div>

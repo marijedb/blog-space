@@ -3,6 +3,12 @@ body {
     color: #171717;
     margin: 0;
 }
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #46b5f158;
+    padding: 5rem 1rem 1rem;
+}
 
 .nav {
     display: flex;
@@ -21,7 +27,29 @@ body {
     margin: 0 1rem;
 }
 
-.post-title:first-child {
-    margin-top: 0;
-    padding-top: 5rem;
+.new-post-title, .new-post-body {
+    font-family: "Montserrat", sans-serif;
+    margin-top: .2rem;
+    margin-bottom: 1rem;
+    border: 1px solid #131313;
+    border-radius: 2px;
+}
+
+.new-post-title:focus,
+.new-post-body:focus {
+    outline: 1px solid #0d3d8f67;
+}
+
+.new-post-body {
+    resize: none;
+}
+
+.btn-form {
+    background-color: #46b5f171;
+    border: 1px solid #0d3d8f67;
+    box-shadow: 1px 1px 4px #0d3d8f67;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
 }
