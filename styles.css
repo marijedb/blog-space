@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #171717;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #46b5f1;
+    height: 4rem;
+    position: fixed;
+    width: 100vw;
+}
+
+.blog-list {
+    margin: 0 1rem 1rem;
+}
+
+.nav-title {
+    margin: 0 1rem;
+}
+
+.post-title:first-child {
+    margin-top: 0;
+    padding-top: 5rem;
+}

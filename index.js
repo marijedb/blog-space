@@ -5,7 +5,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
         let html = ""
         for (let post of postsArr) {
             html += `
-                <h3>${post.title}</h3>
+                <h3 class="post-title">${post.title}</h3>
                 <p>${post.body}</p>
                 <hr>
             `
